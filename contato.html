@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTATO</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <header>
+        <h1>Entre em contato conosco ou faça seu cadastro</h1>
+        <nav>
+                <a href="index.html">Início</a>
+                <a href="servicos.html">Serviços</a>
+                <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <form id="contactForm">
+            <label for="nome">Nome:</label>
+            <input type="texto" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="servicos">Serviço:</label>
+            <select id="servicos" name="servicos" required>
+                <option value="">Selecione...</option>
+                <option value="design">Design de Instagram</option>
+                <option value="ifood">Gestão de iFood</option>
+                <option value="financeiro">Consultoria Financeira</option>
+            </select>
+            
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 App Cresce</p>
+    </footer>
+    <script src="script/formulario.js"></script>
+</body>
+</html>
+
+
