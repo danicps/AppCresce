@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Empresa XPTO - Contato</title>
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/contato.css">
+    <link rel="stylesheet" href="index.html">
 </head>
 <body>
     <header>
@@ -14,9 +15,8 @@
             <a href="contato.html">Contato</a>
         </nav>
     </header>
-    
-    <main>
-        <section class="formulario">
+    <div>
+        <div class="formulario">
             <h2>Fale Conosco</h2>
             <form action="#" method="post">
                 <label for="nome">Nome:</label>
@@ -32,10 +32,10 @@
                     <option value="ifood">Gestão de iFood</option>
                     <option value="financeiro">Consultoria Financeira</option>
                 </select>
-                <button onclick="submit">Enviar</button>
+                <button onclick= "submit" id="enviar">Enviar</button>
             </form>
-        </section>
-    </main>
+        </div>
+    </div>
     <script>
         function mensagem(){
             alert('SUA MENSAGEM FOI ENVIADA COM SUCESSO!')
@@ -45,5 +45,6 @@
     <footer>
         <p>&copy; 2024 AppCresce - Todos os direitos reservados.</p>
     </footer>
+    <script src="script/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around; 
+    padding: 10px 0px;
+    background-color:black; 
+    color: white;   
+}
+
+footer {
+    background-color: black ;
+    color:aliceblue;
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.formulario{
+    position: center;
+    background-color: rgb(250, 249, 249);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(5, 4, 4);
+    flex-direction: column;
+    display: flex;
+
+
+}
+
+header a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
