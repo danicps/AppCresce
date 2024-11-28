@@ -51,5 +51,5 @@ A App Cresce tem como público alvo profissionais que desejam aprimorar sua pres
 ## 📄PÁGINAS A SEREM EXECUTADAS
 
 - [ ]  Página inicial;
-- [ ]  Páginas sobre a empresa, nossos objetivos, quem somos, o que faremos pelos clientes;
-- [ ]  Página para pagamentos. 
+- [ ]  Páginas com formulário para clientes;
+
